@@ -1,0 +1,1123 @@
+Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:="Afm Group Ltd"
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$AN$12350").AutoFilter Field:=14, Criteria1:= _
+        "Afm Group Ltd"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=-24
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$R$1763").AutoFilter Field:=8, Criteria1:= _
+        "0090229001 - Afm Group Ltd"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$CU$1765").AutoFilter Field:=12, Criteria1:= _
+        "Afm Group Ltd"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$1036367").RemoveDuplicates Columns:=1, Header:= _
+        xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A2").Select
+    ActiveSheet.Paste
+    Range("A15").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ChDir "K:\DC REPLENISHMENT\Rajeev\Tuesday reports"
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\Afm report.xlsx", FileFormat:= _
+        xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+    Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:= _
+        "Airborne Honey Ltd"
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$AN").AutoFilter Field:=14, Criteria1:= _
+        "Airborne Honey Ltd"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=129
+    Range("A149:AN161").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$R").AutoFilter Field:=8, Criteria1:= _
+        "0082155001 - Airborne Honey Ltd"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$CU").AutoFilter Field:=12, Criteria1:= _
+        "Airborne Honey Ltd"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    ActiveWindow.SmallScroll Down:=-162
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$715").RemoveDuplicates Columns:=1, Header:=xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Range("A14").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\Airbone honey LTD.xlsx", _
+        FileFormat:=xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+    
+    
+    
+    
+
+
+
+
+
+
+
+    
+    Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:="Brands Worldwide - Otahuhu"
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$AN$12350").AutoFilter Field:=14, Criteria1:= _
+        "Brands Worldwide - Otahuhu"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=-24
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$R$1763").AutoFilter Field:=8, Criteria1:= _
+        "0085667003 - Brands Worldwide - Otahuhu"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$CU$1765").AutoFilter Field:=12, Criteria1:= _
+        "Brands Worldwide - Otahuhu"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$1036367").RemoveDuplicates Columns:=1, Header:= _
+        xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A2").Select
+    ActiveSheet.Paste
+    Range("A15").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ChDir "K:\DC REPLENISHMENT\Rajeev\Tuesday reports"
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\Brands Worldwide - Otahuhu.xlsx", FileFormat:= _
+        xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+    Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:= _
+        "Baker Boys Ltd"
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$AN").AutoFilter Field:=14, Criteria1:= _
+        "Baker Boys Ltd"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=129
+    Range("A149:AN161").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$R").AutoFilter Field:=8, Criteria1:= _
+        "0083002001 - Baker Boys Ltd"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$CU").AutoFilter Field:=12, Criteria1:= _
+        "Baker Boys Ltd"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    ActiveWindow.SmallScroll Down:=-162
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$715").RemoveDuplicates Columns:=1, Header:=xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Range("A14").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\Baker Boys Ltd.xlsx", _
+        FileFormat:=xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+
+
+
+
+
+
+
+
+
+
+Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:=" Real Foods NZ Limited"
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$AN$12350").AutoFilter Field:=14, Criteria1:= _
+        " Real Foods NZ Limited"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=-24
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$R$1763").AutoFilter Field:=8, Criteria1:= _
+        "00 827001 - Real Foods NZ Limited"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$CU$1765").AutoFilter Field:=12, Criteria1:= _
+        " Real Foods NZ Limited"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$1036367").RemoveDuplicates Columns:=1, Header:= _
+        xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A2").Select
+    ActiveSheet.Paste
+    Range("A15").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ChDir "K:\DC REPLENISHMENT\Rajeev\Tuesday reports"
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ Real Foods NZ Limited.xlsx", FileFormat:= _
+        xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+    Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:= _
+        " J J Wafer Biscuits Limited"
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$AN").AutoFilter Field:=14, Criteria1:= _
+        " J J Wafer Biscuits Limited"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=129
+    Range("A149:AN161").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$R").AutoFilter Field:=8, Criteria1:= _
+        " 82860001 - J J Wafer Biscuits Limited"
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$CU").AutoFilter Field:=12, Criteria1:= _
+        " J J Wafer Biscuits Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    ActiveWindow.SmallScroll Down:=-162
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$715").RemoveDuplicates Columns:=1, Header:=xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Range("A14").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ J J Wafer Biscuits Limited.xlsx", _
+        FileFormat:=xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+
+
+
+
+
+
+
+
+
+
+
+Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:=" Queen Anne Indulgence "
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$AN$12350").AutoFilter Field:=14, Criteria1:= _
+        " Queen Anne Indulgence "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=-24
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$R$1763").AutoFilter Field:=8, Criteria1:= _
+        "00 84737001 - Queen Anne Indulgence "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$CU$1765").AutoFilter Field:=12, Criteria1:= _
+        " Queen Anne Indulgence "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$1036367").RemoveDuplicates Columns:=1, Header:= _
+        xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A2").Select
+    ActiveSheet.Paste
+    Range("A15").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ChDir "K:\DC REPLENISHMENT\Rajeev\Tuesday reports"
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ Queen Anne Indulgence.xlsx", FileFormat:= _
+        xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+    Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:= _
+        " Primal Health Foods Ltd "
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$AN").AutoFilter Field:=14, Criteria1:= _
+        " Primal Health Foods Ltd "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=129
+    Range("A149:AN161").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$R").AutoFilter Field:=8, Criteria1:= _
+        "003417001 - Primal Health Foods Ltd "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$CU").AutoFilter Field:=12, Criteria1:= _
+        " Primal Health Foods Ltd "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    ActiveWindow.SmallScroll Down:=-162
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$715").RemoveDuplicates Columns:=1, Header:=xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Range("A14").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ Primal Health Foods Ltd.xlsx", _
+        FileFormat:=xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+
+
+
+
+
+
+
+
+
+
+
+Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:=" Majans NZ Limited "
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$AN$12350").AutoFilter Field:=14, Criteria1:= _
+        " Majans NZ Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=-24
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$R$1763").AutoFilter Field:=8, Criteria1:= _
+        "0083202001 - Majans NZ Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$CU$1765").AutoFilter Field:=12, Criteria1:= _
+        " Majans NZ Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$1036367").RemoveDuplicates Columns:=1, Header:= _
+        xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A2").Select
+    ActiveSheet.Paste
+    Range("A15").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ChDir "K:\DC REPLENISHMENT\Rajeev\Tuesday reports"
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ Majans NZ Limited.xlsx", FileFormat:= _
+        xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+    Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:= _
+        " Picot Productions Limited "
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$AN").AutoFilter Field:=14, Criteria1:= _
+        " Picot Productions Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=129
+    Range("A149:AN161").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$R").AutoFilter Field:=8, Criteria1:= _
+        "0085594001 - Picot Productions Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$CU").AutoFilter Field:=12, Criteria1:= _
+        " Picot Productions Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    ActiveWindow.SmallScroll Down:=-162
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$715").RemoveDuplicates Columns:=1, Header:=xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Range("A14").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ Picot Productions Limited.xlsx", _
+        FileFormat:=xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+
+
+
+
+
+
+
+
+
+
+
+Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:=" Kiwigarden Limited "
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$AN$12350").AutoFilter Field:=14, Criteria1:= _
+        " Kiwigarden Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=-24
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$R$1763").AutoFilter Field:=8, Criteria1:= _
+        "0090088001 - Kiwigarden Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$CU$1765").AutoFilter Field:=12, Criteria1:= _
+        " Kiwigarden Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$1036367").RemoveDuplicates Columns:=1, Header:= _
+        xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A2").Select
+    ActiveSheet.Paste
+    Range("A15").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ChDir "K:\DC REPLENISHMENT\Rajeev\Tuesday reports"
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ Kiwigarden Limited.xlsx", FileFormat:= _
+        xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+    Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:= _
+        " Natures Foods Limited "
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$AN").AutoFilter Field:=14, Criteria1:= _
+        " Natures Foods Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=129
+    Range("A149:AN161").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$R").AutoFilter Field:=8, Criteria1:= _
+        "0090212001 - Natures Foods Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$CU").AutoFilter Field:=12, Criteria1:= _
+        " Natures Foods Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    ActiveWindow.SmallScroll Down:=-162
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$715").RemoveDuplicates Columns:=1, Header:=xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Range("A14").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ Natures Foods Limited.xlsx", _
+        FileFormat:=xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+
+
+
+
+
+
+
+
+
+
+
+Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:=" The Health Discovery Co "
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$AN$12350").AutoFilter Field:=14, Criteria1:= _
+        " The Health Discovery Co "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=-24
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Cells.Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$R$1763").AutoFilter Field:=8, Criteria1:= _
+        "0090543001 - The Health Discovery Co "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$CU$1765").AutoFilter Field:=12, Criteria1:= _
+        " The Health Discovery Co "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$1036367").RemoveDuplicates Columns:=1, Header:= _
+        xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A2").Select
+    ActiveSheet.Paste
+    Range("A15").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ChDir "K:\DC REPLENISHMENT\Rajeev\Tuesday reports"
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ The Health Discovery Co.xlsx", FileFormat:= _
+        xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
+    Cells.Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$BP").AutoFilter Field:=5, Criteria1:= _
+        " J Friend And Co Limited "
+    Selection.Copy
+    Workbooks.Open Filename:="K:\DC REPLENISHMENT\Rajeev\GroceryFoodMacro12.xlsx"
+    Sheets("TPRP & Orders").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Stock Status").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$AN").AutoFilter Field:=14, Criteria1:= _
+        " J Friend And Co Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Stock Status").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll Down:=129
+    Range("A149:AN161").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$R").AutoFilter Field:=8, Criteria1:= _
+        "0090578001 - J Friend And Co Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Promo Worklist").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Sheets("Data Integrity").Select
+    Application.CutCopyMode = False
+    Selection.AutoFilter
+    ActiveSheet.Range("$A:$CU").AutoFilter Field:=12, Criteria1:= _
+        " J Friend And Co Limited "
+    Selection.Copy
+    Windows("GroceryFoodMacro12.xlsx").Activate
+    Sheets("Data Integrity").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Sheets("Stock Status").Select
+    ActiveWindow.SmallScroll Down:=-162
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets.Add After:=Sheets(Sheets.Count)
+    Range("A1").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveSheet.Range("$A$1:$A$715").RemoveDuplicates Columns:=1, Header:=xlYes
+    Range("A1:A13").Select
+    Selection.Copy
+    Sheets("Summary").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+    Range("A14").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.ClearContents
+    ActiveWorkbook.SaveAs Filename:= _
+        "K:\DC REPLENISHMENT\Rajeev\Tuesday reports\ J Friend And Co Limited.xlsx", _
+        FileFormat:=xlOpenXMLWorkbook, CreateBackup:=False
+    Windows("Master Spreadsheet12.xlsm").Activate
+    Selection.AutoFilter
+    Sheets("Promo Worklist").Select
+    Selection.AutoFilter
+    Sheets("Stock Status").Select
+    Selection.AutoFilter
+    Sheets("TPRP & Orders").Select
+    Selection.AutoFilter
