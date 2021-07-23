@@ -1,15 +1,16 @@
 # Automation-using-Macros-in-Excel
 
-* Developed VBA scripts that records macros in Microsoft Excel and automates the report generation process for supply-chain operations in Countdown Supermarkets.
-* Implemented replications of the VBA scripts to minimize the workload in Excel Sheets.
 * Please find the VBA script to see the Code used to create Macros in Excel to decrease Work Load for the employees at Countdown Support Office in New Zealand.
 * You can inspect the code and ask me questions. contact me at phy.astrokrp@outlook.com
 
 
-
 ### Objectives for the project 
 
-* Communicate with the coordinator(Rajeev) at countdown and help record a initial macro in Microsoft Excel
+* Communicate with the coordinator(Rajeev) at Countdown Supermarket support office regarding the performance of the scripts. 
+* Develop VBA scripts that records macros in Microsoft Excel and automates the report generation process for supply-chain operations in Countdown Supermarkets.
+* Implement replications of the VBA scripts to minimize the workload for the whole process.
+* Automate the process and minimize the time for the work load of report generation.
+
 
 
 
