@@ -7,7 +7,7 @@
 ### Objectives for the project 
 
 * Communicate with the coordinator(Rajeev) at Countdown Supermarket support office regarding the performance of the scripts. 
-* Develop VBA scripts that records macros in Microsoft Excel and automates the report generation process for supply-chain operations in Countdown Supermarkets.
+* Develop VBA scripts that records macros in Microsoft Excel and automates the report generation process for vendors in Countdown Supermarkets.
 * Implement replications of the VBA scripts to minimize the workload for the whole process.
 * Automate the process and minimize the time for report generation process.
 
